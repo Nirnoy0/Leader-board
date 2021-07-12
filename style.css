@@ -1,0 +1,78 @@
+/*
+---------Fonts Styles 
+ */
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+</style>
+body{
+    font-family: 'Poppins', sans-serif;
+   
+}
+/* 
+-----------First section
+ */
+ main{
+     display: flex;
+     justify-content: center;
+     background-color: #9F9F9F;
+ }
+.container{
+    width: 870px;
+    height: 679px;
+    margin: 5%;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+.first-Tittle{
+    font-size: 24px;
+    color: blue;
+    font-weight: 700;
+    margin-left: 15px;
+}
+.profiles{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    width: 56px;
+    height: 56px;
+}
+.players-name{
+    font-size: 18px;
+    margin-left: 15px;
+}
+/* 
+-----------Blogs Styles
+*/
+.top-blogs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 25px;
+}
+.blog-title{
+    font-size: 24;
+    color: blue;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+.blog-picture{
+    width: 177px;
+    height: 117px;
+}
+.blog-artical{
+    font-size: 20px;
+    margin-left: 15px;
+    font-weight: 700;
+}
+.blogs{
+    display: flex;
+    padding: 20px;
+}
+span{
+    color: grey;
+    font-size: 18px;
+}
