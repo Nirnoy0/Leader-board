@@ -13,13 +13,16 @@ body{
  */
  main{
      display: flex;
+     flex-direction: column;
      justify-content: center;
+     align-items:center;
      background-color: #9F9F9F;
- }
+}
 .container{
     width: 870px;
-    height: 679px;
-    margin: 5%;
+    height: 689px;
+    margin: 15px;
+    padding: 20px;
     background-color: #FFFFFF;
     border-radius: 5px;
 }
@@ -27,18 +30,19 @@ body{
     font-size: 24px;
     color: blue;
     font-weight: 700;
-    margin-left: 15px;
+    margin-left: 5px;
 }
 .profiles{
     display: grid;
     grid-template-columns: repeat(3,1fr);
 }
 .images{
+    width: 56px;
+    height: 56px;
     display: flex;
     flex-direction: row;
     padding: 20px;
-    width: 56px;
-    height: 56px;
+    margin: 8px;
 }
 .players-name{
     font-size: 18px;
@@ -55,7 +59,7 @@ body{
 .blog-title{
     font-size: 24;
     color: blue;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 20px;
     padding-top: 10px;
 }
@@ -76,3 +80,43 @@ span{
     color: grey;
     font-size: 18px;
 }
+/*
+--------- Course section
+ */
+.course-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 10px;
+}
+.course-banner{
+    width: 224px;
+    height: 103px;
+}
+article{
+    font-size: 20px;
+    font-weight: 700;
+}
+.instactor{
+    color: tomato;
+    font-size: 14px;
+    font-weight: 400;
+}
+.course-details{
+    display: flex;
+    flex-direction: row; 
+}
+.rating{
+    display: flex;
+    flex-direction: row;
+    margin-right: 35px;
+}
+.far{
+    padding-left: 5px;
+}
+.clock{
+    background-color: tomato;
+    border-radius: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
